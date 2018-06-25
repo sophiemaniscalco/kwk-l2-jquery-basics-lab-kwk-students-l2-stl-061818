@@ -18,6 +18,13 @@ function doMath() {
   })
 }
 
+function validated(operator, num1, num2){
+  if (operator  == '+') {
+    $('#validate') 
+    return()
+  }
+}
+
 function result(num1, num2, operator){
   if (operator == '+') {
     $('#result').html(num1 + num2)
